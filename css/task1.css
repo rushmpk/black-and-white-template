@@ -54,6 +54,9 @@ header {
   padding-top: 15px;
   box-shadow: -3px 10px 10px black;
 }
+.banner img:hover{
+  opacity: 0.4;
+}
 .banner .btn {
   font-size: 17px;
   font-family: "Sekuya", system-ui;
@@ -92,6 +95,10 @@ margin-top: 30px;
   
   
  
+}
+.card1:hover{
+  box-shadow: 9px 8px 15px 8px rgba(0, 0, 0, 0.2);
+
 }
 .card1 img{
   width: 250px;
