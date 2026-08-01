@@ -62,6 +62,60 @@ git clone https://github.com/rushmpk/black-and-white-template.git
 * About Us Section
 * Footer Section
 
+
+
+
+## Login Page
+
+A modern **Login Page** built using **HTML5** and **CSS3**. It features a full-screen background image, a gradient login form, Font Awesome icons, and a styled login button.
+
+### Login Page Features
+
+
+* Full-screen background image
+* Gradient login container
+* Username and Password input fields
+* Font Awesome icons
+* Rounded corners with box shadow
+* Hover effect on the Login button
+* Clean and modern UI design
+
+### Login Page Technologies
+
+* HTML5
+* CSS3
+* Font Awesome
+
+### Login Page Structure
+
+```text
+login-page/
+│
+├── img/
+│   └── login2.jpg
+│
+├── index.html
+└── README.md
+```
+
+### Login Page Components
+
+* User Login Icon
+* Username Field
+* Password Field
+* Login Button
+* Background Image
+
+### Future Improvements
+
+* Add JavaScript form validation.
+* Make responsive
+* Implement Show/Hide Password functionality.
+* Add Remember Me checkbox.
+* Add Forgot Password link.
+* Connect the form with a backend database.
+* Make the login page fully responsive for all screen sizes.
+
 ## Future Improvements
 
 * Replace the deprecated `<marquee>` tag with a CSS animation.
