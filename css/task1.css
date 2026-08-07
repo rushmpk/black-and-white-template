@@ -2,11 +2,9 @@
   margin: 0;
   padding: 0;
 }
-body{
-  background:#D9D9D9 ;
-  
+body {
+  background: #d9d9d9;
 }
-
 
 header {
   width: 100%;
@@ -24,10 +22,9 @@ header {
   font-weight: 400;
   padding-left: 40px;
   font-style: normal;
-  
 }
-.logo:hover{
-  color:white;
+.logo:hover {
+  color: white;
   text-shadow: -10px 10px 12px black;
   cursor: pointer;
 }
@@ -48,7 +45,6 @@ header {
 }
 .banner {
   width: 100%;
-  
 }
 
 .banner img {
@@ -56,16 +52,18 @@ header {
   height: 500px;
   padding-top: 15px;
   box-shadow: -3px 10px 10px black;
-  
+  transition-duration: 2s;
+  /* transition-delay: 2s; */
+  transition-timing-function: linear;
 }
-.banner img:hover{
+.banner img:hover {
   opacity: 0.4;
 }
 .banner .btn {
   font-size: 17px;
   font-family: "Sekuya", system-ui;
   cursor: pointer;
-  position:absolute;
+  position: absolute;
   bottom: 400px;
   left: 650px;
   text-decoration: none;
@@ -76,49 +74,45 @@ header {
   border: none;
   z-index: 1;
 }
+/* transistion to button */
+
 .banner .btn:hover {
   color: red;
 }
-.allwrap{
+.allwrap {
   margin: 30px;
-
- 
- 
-  
 }
-.cradwrap{
-
-margin-top: 30px;
-
+.cradwrap {
+  margin-top: 30px;
 }
-.card1{
+.card1 {
   width: 250px;
+  height: 200px;
   border: 5px double black;
   display: inline-block;
   /* padding: 20px; */
   margin-left: 80px;
-  
-  
- 
+  /* transition-duration:4s;
+    transition-delay: 2s;  
+  transition-timing-function:linear ; */
 }
-.card1:hover{
+
+.card1:hover {
   box-shadow: 9px 8px 15px 8px rgba(0, 0, 0, 0.2);
 
+  height: 300px;
 }
-.card1 img{
+.card1 img {
   width: 250px;
-  
-  
 }
-.card1 h4{
+.card1 h4 {
   text-align: center;
-  font-family:cursive;
+  font-family: cursive;
   /* color: white; */
 }
-.wrap2{
+.wrap2 {
   margin-top: 70px;
 }
-
 
 marquee {
   font-family: cursive;
@@ -129,7 +123,7 @@ marquee {
 .a-about {
   padding: 30px;
   /* background: linear-gradient(to right, white, black); */
-  background-color:#AFAFAF;
+  background-color: #afafaf;
 }
 .a-about h1 {
   font-family: "sekuya";
@@ -146,67 +140,52 @@ marquee {
 
 /* styling footer section */
 
-footer{
+footer {
   /* margin: 40px; */
   padding: 20px;
   background-color: black;
   color: white;
-  
 }
 .quick ol li {
   list-style-type: none;
   padding: 20px;
   font-family: cursive;
   color: white;
-
 }
-.quick ol li a{
+.quick ol li a {
   color: white;
   text-decoration: none;
 }
-.quick{
+.quick {
   margin-left: 50px;
   display: inline-block;
   padding-top: 30px;
 }
-.quick ol{
+.quick ol {
   padding-top: 30px;
 }
 
-
 /* styling social links */
 
-
-
-
-.policy{
+.policy {
   margin-left: 100px;
 }
-.social{
+.social {
   display: inline-block;
   margin-left: 70px;
- 
-
 }
-.social ol li{
+.social ol li {
   list-style: none;
   padding: 21px;
- 
-  
- 
-
 }
 
-
-
-footer h3{
- font-family: "BBH Bogle", sans-serif;
- font-size: 20px;
-text-decoration: underline;
-letter-spacing: 7px;
-
+footer h3 {
+  font-family: "BBH Bogle", sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  letter-spacing: 7px;
 }
-footer h4{
+footer h4 {
   font-family: cursive;
   text-align: center;
   font-size: 12px;
@@ -214,42 +193,37 @@ footer h4{
 
 /* icons styling */
 
-.fa-facebook{
+.fa-facebook {
   font-size: 30px;
   color: white;
-
 }
-.fa-whatsapp{
+.fa-whatsapp {
   font-size: 30px;
 }
-.fa-instagram{
+.fa-instagram {
   font-size: 30px;
 }
-.fa-x-twitter{
+.fa-x-twitter {
   font-size: 30px;
 }
-.fa-linkedin{
+.fa-linkedin {
   font-size: 30px;
 }
-
 
 /* hover effect to icons */
 
-.fa-facebook:hover{
-
-  color: red;
-
-}
-.fa-whatsapp:hover{
+.fa-facebook:hover {
   color: red;
 }
-.fa-instagram:hover{
+.fa-whatsapp:hover {
   color: red;
 }
-.fa-linkedin:hover{
+.fa-instagram:hover {
   color: red;
 }
-.fa-x-twitter:hover{
+.fa-linkedin:hover {
   color: red;
 }
-
+.fa-x-twitter:hover {
+  color: red;
+}
